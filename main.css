@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-family:HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size:13px;
+	font-weight:300;
+	/*To stick to bottom*/
+	height:100%;
+	margin:0;
+	padding:0;
+	/*To stick to bottom*/
+}
+
+body {
+	background-image:url(im/scribble_light.png);
+	background-repeat:repeat;
+	background-color:#E6E6E6;
+	/*To stick to bottom*/
+	height:100%;
+	margin:0;
+	/*To stick to bottom*/
+}
+
+h1 {
+	text-align:center;
+	text-shadow:rgb(255, 255, 255) 1px 1px 2px;
+	font-size:32px;
+}
+
+h2 {
+	text-shadow:rgb(255, 255, 255) 1px 1px 2px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+h3, h4, h5, h6 {
+	text-shadow:rgb(255, 255, 255) 1px 1px 2px;
+}
+
+.wrap {
+	position:relative;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:819px;
+	left:0;
+	top:0;
+	/*To stick to bottom*/
+	min-height:100%;
+	/*To stick to bottom*/
+}
+
+.righttitlelink {
+	padding-left:3px;
+	border-left:1px dotted #848484;
+}
+
+#navigation {
+	position: absolute;
+	height: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4C4C4C;
+	font-size: 12px;
+	left:-30px;
+	top:55px;
+	width: 865px;
+}
+
+#navigation a {
+	text-decoration:none;
+	color:#4C4C4C;
+	margin-right: 13px;
+}
+
+nav ul li {
+	display:block;
+	display:inline;
+}
+
+.button {
+	margin-top:10px;
+	margin-left:7px;
+	border:0px solid rgba(0,0,0,0.00);
+}
+
+#topbar {
+	position:relative;
+	width:100%;
+	background-repeat:no-repeat;
+	height:75px;
+	background-image:url(im/MES.png);
+	padding-bottom:30px;
+}
+
+#gallery {
+	width:100%;
+	margin-left:auto;
+  	margin-right:auto;
+	padding-left:4%;
+	padding-top:35px;
+	/*float:left;*/
+}
+
+#mainPic {
+	margin:1%;
+	margin-top:5%;
+}
+
+#map {
+	margin: 10px 0 20px 10px;
+	width: 800px;
+	height: 369px;
+	border-width: 0px;
+	overflow: hidden;
+}
+
+/*CSS for French Page*/
+
+#frmenu li a {
+	font-size: 12px;
+}
+
+/* Begin CSS for Biographies*/
+
+#biography {
+	padding-bottom:20px;
+}
+
+.biopanel h2 {
+	color:#000000;
+	padding-top:15px;
+	padding-left:15px;
+	margin-top:1px;
+	text-shadow:rgb(255, 255, 255) 1px 1px 2px;
+}
+
+.biopanel p {
+	color:#4C4C4C;
+	padding-top:15px;
+	padding-left:15px;
+	margin-top:1px;
+	text-shadow:rgb(255, 255, 255) 1px 1px 2px;
+	font-size:9pt;
+	padding-right:27px;
+}
+
+.biopanel1 {
+	position:relative;
+	width:100%;
+	height:200px;
+	margin-left:3px;
+}
+
+#push {
+	padding-bottom:50px;
+}
+
+/* End CSS for Biographies*/
+
+#copyright {
+	text-align:center;
+	color:#000000;
+	font-size:11px;
+	letter-spacing:1px;
+}
+
+.nospam {/*To Stop Spam*/
+    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+		display:none;
+}
+
+.info, h3 {
+	width:100%;
+}
+
+a:link, a:visited {
+	color:#000000;
+	text-decoration:none;
+}
+
+.bottomBar {
+	margin-bottom: 0px;
+	bottom: 0%;
+	width: 100%;
+	left: -1px;
+	/*To stick to bottom*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;	/*To stick to bottom*/
+}
+
+a[href]:hover{
+	cursor:pointer;
+}
