@@ -8,10 +8,19 @@
 <link rel="shortcut icon" href="MESFavicon.png" />
 <link rel="apple-touch-icon" href="MESFaviconMobile.png" />
 <title>Mandle-Edwards Surveying, Inc.</title>
+<!-- JS Files first; CSS files have JS file dependencies -->
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="js/analytics.js"></script>
+<!-- CSS Files -->
+<link rel="stylesheet" href="./cs/bootstrap.min.css">
+<link rel="stylesheet" href="./cs/main.css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-light bg-danger">
 	  <a class="navbar-brand text-light logo" href="./index.html">MES</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -35,18 +44,20 @@
 	</nav>
 
 	<div class="container-fluid">
-		<div class="card mt-2">
-			<h1 class="text-center company">Mandle-Edwards Surveying</h1>
+		<div class="card mt-2 bg-dark">
+			<div class="card-header"><h1 class="text-center company text-light">Mandle-Edwards Surveying</h1></div>
 
+			<div>
 			<!--This is the Google Map location of our business-->
 			<iframe id="map" allowfullscreen  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.3536612640105!2d-90.18013604931036!3d29.997999827631336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620b069078ae80d%3A0x7604825dc0717bd0!2s4200+S+I-10+Service+Rd+W%2C+Metairie%2C+LA+70001!5e0!3m2!1sen!2sus!4v1459353499566"></iframe>
+			</div>
 		</div>
 
-		<div class="card mt-3 mb-3">
+		<div class="card mt-3 mb-3 bg-dark">
 			<div class="card-body">
-				<h2 class="card-title">What we do</h2>
+				<h2 class="card-title card-header text-center text-light h1">What we do</h2>
 
-				<p>
+				<p class="text-light">
 					Mandle-Edwards Surveying, Inc. is located in metro New Orleans, and provides clients with an array of Land Surveying services including Property Line Surveys, Boundary Line Surveys, Mortgage Surveys, Flood Insurance Elevations, Benchmark Elevations, ALTA/ACSM Surveys, Topographic Surveys, Accident Site Surveys, Construction Layouts, GPS Surveying, Hydrographic Surveying and CAD drafting services to name a few.
 
 					We are very familiar with the surveying nuances associated with the uniqueness of the local areas, and our company uses its large file of surveying records and plans of the area to help expedite work.
@@ -55,11 +66,11 @@
 		</div>
 
 		<div class="card mt-3 mb-3">
-			<div class="card-body">
-				<h2 class="card-title">About Us</h2>
+			<div class="card-body bg-dark">
+				<h2 class="card-title card-header text-center text-light h1">About Us</h2>
 
-				<h5>Richard Edwards</h5>
-				<p>
+				<h5 class="text-light">Richard Edwards</h5>
+				<p class="text-light">
 					The Company president, Richard Edwards, is a licensed professional land surveyor in Louisiana and Mississippi with over 40 years of surveying experience.
 
 					In 1965, Sterling Mandle opened Mandle Surveying. Richard Edwards began working for Mandle Surveying at this time. He was part of the field crew, assisting with land surveys and elevation surveys.
@@ -69,23 +80,13 @@
 					The name may have changed, but Mandle-Edwards Surveying still provides essential services to developers, builders, and individuals.
 				</p>
 
-				<h5>Glenn Landry</h5>
-				<p>Is the senior survey crew chief, and has been surveying since 1978. He joined Mandle Surveying in 1981.</p>
+				<h5 class="text-light">Glenn Landry</h5>
+				<p class="text-light">Is the senior survey crew chief, and has been surveying since 1978. He joined Mandle Surveying in 1981.</p>
 
-				<h5>Chris Bannon</h5>
-				<p>Is the draftsman/CAD operator, and he began working for Mandle Surveying in 1977.</p>
+				<h5 class="text-light">Chris Bannon</h5>
+				<p class="text-light">Is the draftsman/CAD operator, and he began working for Mandle Surveying in 1977.</p>
 			</div>
 		</div>
 	</div>
-
-	<!-- JS Files first; CSS files have JS file dependencies -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="js/analytics.js"></script>
-	<!-- CSS Files -->
-	<link rel="stylesheet" href="./cs/bootstrap.min.css">
-	<link rel="stylesheet" href="./cs/main.css">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </body>
 </html>

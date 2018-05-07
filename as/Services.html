@@ -7,9 +7,18 @@
 <link rel="shortcut icon" href="../MESFavicon.png" />
 <link rel="apple-touch-icon" href="../MESFaviconMobile.png" />
 <title>Services</title>
+<!-- JS Files first; CSS files have JS file dependencies -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/analytics.js"></script>
+<!-- CSS Files -->
+<link rel="stylesheet" href="../cs/bootstrap.min.css">
+<link rel="stylesheet" href="../cs/main.css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-light bg-danger">
 	  <a class="navbar-brand text-light logo" href="../index.html">MES</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -33,16 +42,16 @@
 	</nav>
 
 	<div class="container-fluid">
-		<div class="card card-body mt-2">
-			<h2 class="h1 text-center non-company">Services we provide</h2>
+		<div class="card card-body mt-2 bg-dark">
+			<h2 class="h1 text-center non-company text-light card-header">Services we provide</h2>
 
 			<div class="row">
 				<!--Row 1-->
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">ALTA/ACSM Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">ALTA/ACSM Surveys</h3>
 
-						<p class="card-body">Usually referred to as ALTA Surveys, these surveys are usually more commonly performed on commercial and industrial properties. They determine
+						<p class="card-body text-light">Usually referred to as ALTA Surveys, these surveys are usually more commonly performed on commercial and industrial properties. They determine
 						property lines, locate substantial visible improvements, and typically identify and show, utilities, parking spaces, building dimensions, information
 						on identifying adjoining property, property zoning information and flood zones as listed on the “Table A” options from the ALTA requirements. An ALTA
 						Survey is usually performed in coordination with the issuance of a Title Insurance Policy on the property by a Title Insurance Company and requires
@@ -51,20 +60,20 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Boundary Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Boundary Surveys</h3>
 
-						<p class="card-body">These surveys, also called Property Line Surveys, meet the state standards for a property boundary survey and show the boundaries, buildings,
+						<p class="card-body text-light">These surveys, also called Property Line Surveys, meet the state standards for a property boundary survey and show the boundaries, buildings,
             improvements, known easements and encroachments on a property. They also establish the property corners. Boundary surveys are typically performed to
             obtain building permits, to resolve property line disputes, for erecting fences and etc.</p>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Construction Layouts</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Construction Layouts</h3>
 
-						<p class="card-body">These plan for the construction of buildings, roadways, and utilities. It is the translation of construction plans into physical points being marked
+						<p class="card-body text-light">These plan for the construction of buildings, roadways, and utilities. It is the translation of construction plans into physical points being marked
 						on the ground to be used as a basis for the actual construction. A Construction Layout may be as simple as staking four points on a residential lot to
 						start construction of a building, may include staking of piling locations or be as complex as staking multiple points for horizontal and vertical
 						control on larger projects. Almost any roadway, building, or other man-made structure has had some amount of construction layout involved.</p>
@@ -73,20 +82,20 @@
 
 				<!--Row 2-->
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Mortgage Survey</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Mortgage Survey</h3>
 
-						<p class="card-body">These surveys are typically used by title companies and mortgage lenders to obtain proof that the major improvements on the property are free of
+						<p class="card-body text-light">These surveys are typically used by title companies and mortgage lenders to obtain proof that the major improvements on the property are free of
 						encroachments onto neighboring properties or into recorded easements. Mortgage surveys do not establish property corners or property lines and may not
 						be used for building purposes.</p>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Condominium Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Condominium Surveys</h3>
 
-						<p class="card-body">These surveys consist of the typical Boundary Line Survey with the added element of a three dimensional survey of the perimeter of each unit of the
+						<p class="card-body text-light">These surveys consist of the typical Boundary Line Survey with the added element of a three dimensional survey of the perimeter of each unit of the
 						condominium. A detail of the elevation view of the building(s), parking, areas which are common (Common Element) to the complex and areas which are
 						limited (Limited Common Element) to the use of a specific unit are shown on the survey. Interior unit walls not affecting the perimeter of the units
 						may also be requested.</p>
@@ -94,10 +103,10 @@
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Construction Layouts</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Construction Layouts</h3>
 
-						<p class="card-body">These plan for the construction of buildings, roadways, and utilities. It is the translation of construction plans into physical points being marked
+						<p class="card-body text-light">These plan for the construction of buildings, roadways, and utilities. It is the translation of construction plans into physical points being marked
 						on the ground to be used as a basis for the actual construction. A Construction Layout may be as simple as staking four points on a residential lot to
 						start construction of a building, may include staking of piling locations or be as complex as staking multiple points for horizontal and vertical
 						control on larger projects. Almost any roadway, building, or other man-made structure has had some amount of construction layout involved.</p>
@@ -106,10 +115,10 @@
 
 				<!--Row 3-->
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Benchmark Elevation Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Benchmark Elevation Surveys</h3>
 
-						<p class="card-body">Surveys which measure the elevation of the ground, buildings (if any) and the adjoining street on a property for construction purposes. A temporary
+						<p class="card-body text-light">Surveys which measure the elevation of the ground, buildings (if any) and the adjoining street on a property for construction purposes. A temporary
             Benchmark is set at or near the property as a reference during construction to assist in determining how high to build a structure. Typically a
             Benchmark Elevation Survey is needed for a permit for new construction, significant remodeling or renovation work and for raising an existing building.
             Orleans Parish is currently the only local government that has it own standardized Benchmark Certificate.</p>
@@ -117,39 +126,39 @@
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Flood Elevation Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Flood Elevation Surveys</h3>
 
-						<p class="card-body">Surveys which measure the elevation of buildings, equipment servicing the building and the adjacent ground for purpose of determining cost of Flood
+						<p class="card-body text-light">Surveys which measure the elevation of buildings, equipment servicing the building and the adjacent ground for purpose of determining cost of Flood
             Insurance. Typically the results of a Flood Elevation Survey are reported on a FEMA Elevation Certificate which is issued to the client. FEMA Elevation 			 			Certificates includes the required necessary data and Flood Insurance Rate Map information to allow Insurance Agents to issue a Flood Insurance Policy
             on a building.</p>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Hydrographic Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Hydrographic Surveys</h3>
 
-						<p class="card-body">Surveys determining the geometry and dynamic characteristics of bodies of water. These surveys collect data that may include the water depth, bottom 			  			contours and configuration, directions and velocity of current, heights and water stages, and the location of fixed objects for navigational, dredging,
+						<p class="card-body text-light">Surveys determining the geometry and dynamic characteristics of bodies of water. These surveys collect data that may include the water depth, bottom 			  			contours and configuration, directions and velocity of current, heights and water stages, and the location of fixed objects for navigational, dredging,
             oil exploration/drilling and marine construction.</p>
 					</div>
 				</div>
 
 				<!--Row 4-->
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">No Work Affidavits</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">No Work Affidavits</h3>
 
-						<p class="card-body">An inspection is made by a surveyor of the property to determine that no work has started and that no materials have been delivered to the site. The 			  			inspection must take place on the same day that the No Work Affidavit Certificate is issued. No Work Affidavits are usually requested by a financial
+						<p class="card-body text-light">An inspection is made by a surveyor of the property to determine that no work has started and that no materials have been delivered to the site. The 			  			inspection must take place on the same day that the No Work Affidavit Certificate is issued. No Work Affidavits are usually requested by a financial
             institution to help protect their financial interests in a property when a construction loan has been taken out on the property.</p>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Topographic Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Topographic Surveys</h3>
 
-						<p class="card-body">Commonly called a Topo Survey, this type of survey is frequently used by Architects, Engineers and Developers for the design and development of
+						<p class="card-body text-light">Commonly called a Topo Survey, this type of survey is frequently used by Architects, Engineers and Developers for the design and development of
             property. Typically a Topo Survey will show the boundaries, buildings, improvements, known easements, encroachments as well as any significant natural
             features on a property. Surface elevations on a specified interval, elevations along the perimeter of pavement and elevations on sewer and drainage
             features with the inverted elevations of and the size of the sewer and drain pipes are a frequent component of a Topo Survey.</p>
@@ -157,10 +166,10 @@
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Subdivision Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Subdivision Surveys</h3>
 
-						<p class="card-body">These are Boundary Surveys that commonly adjust the location of one or more property lines. A Subdivision Survey is used to legally subdivide
+						<p class="card-body text-light">These are Boundary Surveys that commonly adjust the location of one or more property lines. A Subdivision Survey is used to legally subdivide
             property. These surveys may be a simple as combining two 25 foot wide lots into one new 50 foot wide lot, dividing a 100 foot wide lot into two new 50
             foot wide lots or as complex as creating numerous lots and streets from parcel of land consisting of many acres.</p>
 					</div>
@@ -168,19 +177,19 @@
 
 				<!--Row 5-->
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Accident Site Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Accident Site Surveys</h3>
 
-						<p class="card-body">Surveys showing the relief features or surface configuration and other details of the area surrounding an accident. We provide complete Survey site
+						<p class="card-body text-light">Surveys showing the relief features or surface configuration and other details of the area surrounding an accident. We provide complete Survey site
 						scenes and produce a display and mapping exhibits for settlement or litigation.</p>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">As-Built Surveys</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">As-Built Surveys</h3>
 
-						<p class="card-body">Is most commonly the survey of the finished product for new construction. An As-Built Survey, like a
+						<p class="card-body text-light">Is most commonly the survey of the finished product for new construction. An As-Built Survey, like a
 			boundary survey, shows the property boundaries, buildings, improvements, known easements and encroachments for a construction project which has been
             completed. seldom corresponds exactly to the original plans in every detail. The purpose of an As-Built Survey is to record these variations.
             Sometimes, reproductions of the original drawings are used with variations recorded by crossing out the original design data and writing in the
@@ -190,10 +199,10 @@
 
 
 				<div class="col-sm-4">
-					<div class="card mt-2">
-						<h3 class="text-center pt-2">Builder's Packages</h3>
+					<div class="card mt-2 bg-secondary">
+						<h3 class="text-center pt-2 text-light card-header">Builder's Packages</h3>
 
-						<p class="card-body">The builder's package, also called Construction Packages, is designed to provide all of the necessary land surveys and elevation certificates needed for 			 local government permits for the construction of a new home or commercial building. A Builder's Package is more cost effective than if each of the
+						<p class="card-body text-light">The builder's package, also called Construction Packages, is designed to provide all of the necessary land surveys and elevation certificates needed for 			 local government permits for the construction of a new home or commercial building. A Builder's Package is more cost effective than if each of the
              elevations and surveys are ordered in a piecemeal manner. Actual requirements may vary from one local government to another and over time change.
              A Builders’ Package may be tailored to meet additional needs. In general, a basic Builders’ Package will include the following:
 						 <br />
@@ -221,16 +230,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- JS Files first; CSS files have JS file dependencies -->
-	<script src="../js/jquery-3.3.1.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/analytics.js"></script>
-	<!-- CSS Files -->
-	<link rel="stylesheet" href="../cs/bootstrap.min.css">
-	<link rel="stylesheet" href="../cs/main.css">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 </body>
 </html>

@@ -2,14 +2,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="author" content="Jeremy Edwards" >
-<meta name="description" content="Pictures taken while surveying land and sea!" >
 <meta name="keywords" content="Mandle, Edwards, Surveying, Survey, land, New Orleans, Mississippi, Louisiana" >
 <link rel="shortcut icon" href="../MESFavicon.png" />
 <link rel="apple-touch-icon" href="../MESFaviconMobile.png" />
 <title>Contact Us</title>
+<!-- JS Files first; CSS files have JS file dependencies -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/analytics.js"></script>
+<!-- CSS Files -->
+<link rel="stylesheet" href="../cs/bootstrap.min.css">
+<link rel="stylesheet" href="../cs/main.css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	<nav class="navbar navbar-expand-sm navbar-light bg-danger">
 	  <a class="navbar-brand text-light logo" href="../index.html">MES</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -33,20 +41,21 @@
 	</nav>
 
   <div class="container-fluid">
-    <div class="card mt-2">
-      <h2 class="h1 text-center non-company mt-4">Send us an email!</h2>
+    <div class="card mt-2 bg-dark">
+      <div class="card-header"><h2 class="h1 text-center non-company mt-4 text-light">Send us an email!</h2>
+      </div>
 
       <form class="p-5" action="https://formspree.io/edwardsbjeremy@gmail.com" method="POST">
-        <label for="name"><h4>First & Last Name</h4></label>
+        <label for="name"><h4 class="text-light">First & Last Name</h4></label>
         <input id="name" type="text" class="form-control" name="name" value="Jane Doe" onfocus="this.value = '';" required/>
 
-        <label for="email" class="mt-4"><h4>Your Email Address</h4></label>
+        <label for="email" class="mt-4"><h4 class="text-light">Your Email Address</h4></label>
         <input id="email" type="email" class="form-control" name="_replyto" value="email@email.com" onfocus="this.value = '';" required/>
 
-        <label for="body" class="mt-4"><h4>The Subject of your Email</h4></label>
+        <label for="body" class="mt-4"><h4 class="text-light">The Subject of your Email</h4></label>
         <input id="body" type="text" type="hidden" name="_subject" value="Pithy Subject Line Here" onfocus="this.value = '';" class="form-control" required/>
 
-        <label for="body" class="mt-4"><h4>The Body of your Email</h4></label>
+        <label for="body" class="mt-4"><h4 class="text-light">The Body of your Email</h4></label>
         <input id="body" type="text" type="hidden" name="body" value="What's on your mind?" onfocus="this.value = '';" class="form-control" required/>
 
         <input type="hidden" name="_next" value="http://edwardsbjeremy.000webhostapp.com/non-portfolio-testing/index.html" />
@@ -54,26 +63,16 @@
       </form>
     </div>
 
-    <div class="card mt-3 mb-2 p-5">
-      <h2 class="h1">Give us a call!</h2>
+    <div class="card mt-3 mb-2 bg-dark">
+      <div class="card-header"><h2 class="h1 text-center non-company mt-4 text-light">Give us a call!</h2></div>
 
-      <p>
+      <p class="p-5 text-light">
         Phone - 504-733-2902
         <br />
         Fax - 504-733-2903
       </p>
     </div>
   </div>
-
-	<!-- JS Files first; CSS files have JS file dependencies -->
-	<script src="../js/jquery-3.3.1.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/analytics.js"></script>
-	<!-- CSS Files -->
-	<link rel="stylesheet" href="../cs/bootstrap.min.css">
-	<link rel="stylesheet" href="../cs/main.css">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 </body>
 </html>
